@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px;
+}
+
+p,h4{
+    font-size: 14px;
+    margin: 10px; 
+}
+
+.p1{
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 5px;
+    font-weight: 500px;
+} 
+
+.name{
+    font-family: 'Fraunces';
+    font-weight: 700px;
+}
+
+.p2{
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.price-text{
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+}
+
+.p3{
+    padding-left: 8px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+button{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding: 20px 45px 20px 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(30, 38%, 92%);
+}
+
+.svg{
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
